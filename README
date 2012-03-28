@@ -12,4 +12,10 @@ Spec
 Generate random data.
 You can specify the size what you need in byte. Default size 100KiB.
 
+e.g. You want 256 bytes data.
 http://$addr:5000/?size=256
+
+Also You can specify any additional path.
+
+e.g.
+http://$addr:500/foo/bar/baz
