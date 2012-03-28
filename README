@@ -1,0 +1,15 @@
+Setup
+-----
+
+0. (make a virtualenv...)
+1. pip install Flask
+2. python foolish.py
+3. done. Look him at http://$addr:5000/
+
+Spec
+----
+
+Generate random data.
+You can specify the size what you need in byte. Default size 100KiB.
+
+http://$addr:5000/?size=256
